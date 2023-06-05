@@ -1,0 +1,292 @@
+@font-face {
+    font-family: 'Mulish' !important;
+    src: public_path('font/Mulish-Black.tff');
+}
+
+
+
+.LoginPage{
+    height: auto;
+    background: #FFFFFF;
+    border: 2px solid #DFE0EB;
+    border-radius: 8px;
+    margin: 0px 1px 0px 8px;
+    border: none;
+    width: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-right: 16px;
+    margin-left: 16px;
+
+}
+
+.apro-logo {
+    width: 82.6px;
+    height: 90px;
+}
+
+
+
+.Apro-Technology-Pte-Ltd {
+    width: auto;
+    height: 24px;
+    opacity: 0.7;
+    margin-top: 5px;
+    font-family: "Mulish";
+    font-size: 19px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.4px;
+    text-align: center;
+    color: #a4a6b3;
+}
+
+.Login {
+    width: auto;
+    height: 30px;
+    margin-top: 40px;
+    font-family: "Mulish";
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    text-align: center;
+    color: #252733;
+}
+
+
+.Enter-your-username-and-password-below {
+    width: auto;
+    height: 20px;
+    margin: 16px;
+    font-family: "Mulish";
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: 0.3px;
+    text-align: center;
+    color: #9fa2b4;
+}
+
+.labelusername {
+    width: auto;
+    height: 16px;
+    font-family: "Mulish";
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    text-align: left;
+    color: #9fa2b4;
+    margin-top: 10px;
+}
+
+.textarea-bg-username {
+    width: 100%;
+    height: 42px;
+    padding: 11px 0px 11px 0px;
+    border-radius: 8px;
+    border: solid 1px #f0f1f7;
+    background-color: #fcfdfe;
+}
+
+.textfield-username {
+    border: 0 !important;
+    box-shadow: none !important;
+    width: auto;
+    height: 20px;
+    font-family: "Mulish";
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 1.43;
+    letter-spacing: 0.3px;
+    text-align: left;
+    color: #252733;
+
+}
+
+
+.labelpassword {
+    margin-top: 10px;
+    width: auto;
+    height: auto;
+    font-family: "Mulish";
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    text-align: left;
+    color: #9fa2b4;
+}
+
+
+.Forgot-password {
+    width: auto;
+    height: auto;
+    flex-grow: 0;
+    font-family: "Mulish";
+    font-size: 10px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.1px;
+    text-align: left;
+    color: #9fa2b4;
+}
+
+
+
+
+.btn-bg-login {
+    margin-top: 50px;
+    width: 100%;
+    height: 43px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+    border: solid 1px #265b55;
+    background-color: #265b55;
+    color: #fff;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
+
+
+.sheet{
+
+
+    box-sizing: border-box;
+    height: 151px;
+    width: 190px;
+    position: relative;
+    left: 60px;
+    top: -80px !important;
+
+    filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.1));
+
+    background: #FFFFFF;
+    /* grayscale / divider */
+
+    border: 1px solid #DFE0EB;
+    border-radius: 8px;
+
+}
+
+
+
+
+
+.Error {
+
+
+    width: 30px;
+    height: 16px;
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 14px;
+    margin-left: 75px;
+    margin-top: 8px;
+
+    color: #000000;
+}
+
+
+
+.close{
+
+    left: 78px;
+    top: 3px;
+
+}
+
+.wuap{
+
+
+    width: 133px;
+    height: 26px;
+
+    margin-left: 28px;
+    margin-top: 8px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 130%;
+    /* or 13px */
+
+    text-align: center;
+
+    color: #000000;
+}
+
+.buttonok {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+
+
+    width: 140px;
+    height: 33px;
+    margin-left: 23px;
+    margin-top: 25px;
+
+    background: #265B55;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    color: #fff;
+}
+
+.modal-header{
+    background: #265B55 !important;
+    color: #fff;
+}
+
+.modal-header .modal-title{
+    color: #fff;
+
+}
+
+.close{
+    background-color: #fff !important;
+    opacity: 1 !important;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background: #265B55 !important;
+    color: #fff;
+}
+
+
+.Copyright-Apro-Technology-Pte-Ltd-2023-V100 {
+    width: auto !important;
+    font-family: "Mulish";
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    margin-top:20px;
+}

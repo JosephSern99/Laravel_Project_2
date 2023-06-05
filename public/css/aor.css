@@ -1,0 +1,132 @@
+.cards-default {
+    width: auto;
+    height: auto;
+    margin: 4px 0 363px 1px;
+    padding: 18px 9px 12px 12px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+    border: solid 1px #dfe0eb;
+    background-color: #fff;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-right: 16px;
+    margin-left: 16px;
+  }
+
+  .div-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 4px;
+
+
+    font-family: 'Mulish';
+    font-size: 10px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+}
+
+.div-text{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+}
+
+
+
+.refno{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    color: #ff0000;
+}
+
+
+.datesec{
+    margin-left: 0px;
+    gap: 4px;
+    font-family: 'Mulish';
+    font-size: 10px;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+}
+
+
+.Secondary-btn {
+    width: 140px;
+    height: 43px;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+    border: solid 1px #265b55;
+    background-color: #fff;
+}
+
+.button {
+    width: auto;
+    flex-grow: 0;
+    font-family: "Mulish";
+    font-size: 12px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
+    text-align: center;
+    color: #265b55;
+}
+
+.buttonimage{
+    width: auto;
+    height: auto;
+    /* flex-grow: 0;
+    object-fit: contain; */
+
+}
+
+.Primary-btn {
+    width: 140px;
+    height: 43px;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+    border: solid 1px #265b55;
+    background-color: #265b55;
+}
+
+.buttonaccept {
+    width: auto;
+    flex-grow: 0;
+    font-family: "Mulish";
+    font-size: 12px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+}
+
+.sheet-container{
+    margin-top: 36px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display: flex;
+
+    padding-left: 0.1rem;
+    padding-right: 0.1rem;
+
+}
+

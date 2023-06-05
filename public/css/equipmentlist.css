@@ -1,0 +1,379 @@
+@font-face {
+    font-family: 'Mulish';
+    src: url("../font/Mulish-Regular.ttf") format("truetype");
+}
+
+
+.ActionsService{
+
+    height: 78px;
+    width: 153px;
+
+    background: #FFFFFF;
+    border: 2px solid #DFE0EB;
+    border-radius: 8px;
+    filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.1));
+
+
+
+}
+
+
+.Service {
+
+    left: 0%;
+    right: 0%;
+    top: 20.51%;
+    bottom: 57.69%;
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.4px;
+}
+
+
+.CompassService {
+
+    width: 24px;
+    height: 24px;
+    left: 64px;
+    top: 39px;
+}
+
+.sheet-container{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display: flex;
+
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
+.ActionsEquipment {
+
+    height: 78px;
+    width: 153px;
+
+    background: #FFFFFF;
+    border: 2px solid #265B55;
+    border-radius: 8px;
+    color: #265B55;
+
+
+    filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.1));
+
+
+}
+
+.Equipment{
+
+    left: 0%;
+    right: 0%;
+    top: 20.51%;
+    bottom: 57.69%;
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.4px;
+
+    color: #265B55;
+}
+
+
+.CompassEquipment{
+
+    width: 24px;
+    height: 24px;
+    left: 64px;
+    top: 39px;
+}
+
+
+.Cases{
+    height: auto;
+    background: #FFFFFF;
+    border: 2px solid #DFE0EB;
+    border-radius: 8px;
+    margin: 10px 1px 0px 8px;
+
+    width: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-right: 16px;
+    margin-left: 16px;
+
+}
+
+
+
+.dataTables_wrapper table thead{
+    display:none;
+}
+
+
+.Cases .dataTables_wrapper .top:first-child .dataTables_length, .Cases .dataTables_wrapper .top:first-child .dataTables_filter{
+    font-family: "Mulish" !important;
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    font-stretch: normal !important;
+    font-style: normal !important;
+    color: #000 !important;
+    width: auto;
+    padding: 0;
+    white-space: normal;
+    display: inline-block
+}
+
+
+
+
+.Cases .dataTables_wrapper .top:first-child .dataTables_length .form-control, .Cases .dataTables_wrapper .top:first-child .dataTables_filter .form-control{
+
+    font-family: "Mulish" !important;
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    font-stretch: normal !important;
+    font-style: normal !important;
+    color: #000 !important;
+    display: block;
+
+}
+
+.Cases .dataTables_wrapper .top{
+    justify-content: space-between;
+    display: flex;
+    margin: 0;
+
+}
+
+
+
+.info-card {
+
+    box-sizing: border-box;
+    border-left: solid none;
+    border-right: solid none;
+    border-left: 0 !important;
+    border-right: 0 !important;
+    border-style: solid none;
+    border-bottom: solid none;
+    border-bottom: 0 !important;
+    position: relative;
+    width: auto;
+    /* height: 160px; */
+    left: -3px;
+    /* top: 10px; */
+
+    background: #FFFFFF;
+    border: 1px solid rgba(159, 162, 180, 0.2);
+    border-radius: 0px;
+}
+
+.Case-ID{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 4px;
+
+
+
+    color: #265b55;
+    font-family: 'Mulish';
+    font-size: 10px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
+    text-align: left;
+
+}
+
+.Customer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 4px;
+
+
+    font-family: 'Mulish';
+    font-size: 10px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+}
+
+.datesec{
+    padding-left: 1px;
+    gap: 4px;
+    font-family: 'Mulish';
+    font-size: 10px;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+}
+
+.casenum{
+
+    left: 4.17px;
+    top: 3.33px;
+
+}
+
+.refno{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+}
+
+.problemnote{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+}
+
+
+.numofservicetext{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+}
+
+.contracttext{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+}
+
+.custname{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+
+}
+
+.userfname{
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+
+}
+
+.dataTables_empty{
+    display:none !important;
+}
+
+
+.page-item.active .page-link {
+    color: #fff !important;
+    background-color: #265b55;
+}
+
+
+.paginate_button>a {
+    font-size: 12px;
+}
+
+.dataTables_scrollBody{
+    overflow-x:hidden !important;
+    overflow-y:auto !important;
+}
+
+
+
+
+.Time
+{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 2px;
+
+
+}
+
+
+
+.hours{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 2px;
+}
+
+.title-show{
+    font-family: 'Mulish' !important;
+    left: -6px !important;
+}
+
+.title-search{
+    font-family: 'Mulish' !important;
+    left: 60px !important;
+}
+
+.title-entries{
+    font-family: 'Mulish' !important;
+    left: -6px !important;
+}
+
+.Cases .dataTables_scrollBody
+{
+    height: calc(95vh - 350px) !important;
+}
+
+.Cases .dataTables_wrapper .bottom .dataTables_paginate .pagination .page-item.active .page-link, .pagination .page-item.active .page-link:hover {
+    font-family: "Mulish";
+    background-color:#265B55 !important;
+}
+
+.Cases .dataTables_wrapper .dataTables_info  {
+    font-family: "Mulish" !important;
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    font-stretch: normal !important;
+    font-style: normal !important;
+    color: #9fa2b4;
+}
+label{
+    font-family: "Mulish" !important;
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    font-stretch: normal !important;
+    font-style: normal !important;
+    color: #000 !important;
+}
+
+

@@ -1,0 +1,185 @@
+.link-class{
+    width: auto;
+    height: auto;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.link-text{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 130%;
+    color: #1e1e1e;
+}
+
+.cards-default {
+    width: auto;
+    height: auto;
+    margin: 10px 0 0px 1px;
+    padding: 9px 9px 12px 12px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+    border: solid 1px #dfe0eb;
+    background-color: #fff;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-right: 16px;
+    margin-left: 16px;
+}
+
+
+
+.div-text-green{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
+    text-align: left;
+    color: #265b55;
+}
+
+.div-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 4px;
+
+
+    font-family: 'Mulish';
+    font-size: 10px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+}
+
+
+.div-text{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+}
+
+
+.div-title {
+    width: auto;
+    height: auto;
+    font-family: "Mulish";
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    text-align: left;
+    color: #265b55;
+}
+
+.div-text-field {
+    font-family: "Mulish";
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    padding: 12px 12px 20px 12px;
+    /* padding-left: 1rem;
+    padding-right: 1rem; */
+    border-radius: 6px;
+    background-color: #ebedf0;
+}
+
+/* textarea {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    width: 100%;
+} */
+
+.sheet-container{
+    margin-top: 26px;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+
+    padding-left: 3rem;
+    padding-right: 3rem;
+
+}
+
+.Secondary-btn {
+    width: 140px;
+    height: 43px;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+    border: solid 1px #265b55;
+    background-color: #fff;
+}
+
+.button {
+    width: auto;
+    flex-grow: 0;
+    font-family: "Mulish";
+    font-size: 12px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
+    text-align: center;
+    color: #265b55;
+}
+
+.buttonimage{
+    width: auto;
+    height: auto;
+    /* flex-grow: 0;
+    object-fit: contain; */
+
+}
+
+.Primary-btn {
+    width: 140px;
+    height: 43px;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+    border: solid 1px #265b55;
+    background-color: #265b55;
+}
+
+.buttonsave {
+    width: auto;
+    flex-grow: 0;
+    font-family: "Mulish";
+    font-size: 12px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+}
+
+
+textarea {
+    background:transparent;
+    color:#000;
+}
+
+
+.disabled, :disabled{
+    color:#000 !important;
+}

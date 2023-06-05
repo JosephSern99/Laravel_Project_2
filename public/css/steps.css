@@ -1,0 +1,130 @@
+.steps .steplist{
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+.steps .steplist .step{
+    display: table-cell;
+    text-align: center;
+    position: relative;
+}
+
+.steps .steplist .step::before,
+.steps .steplist .step::after{
+    background-color: #353d52;
+    content: '';
+    position: absolute;
+    top: 2.86rem;
+    width: 50%;
+    height: 3px;
+}
+
+.steps .steplist .step:last-child:after {
+  content: none;
+}
+
+.steps .steplist .step::before{
+    left: 0;
+}
+
+.steps .steplist .step::after{
+    right: 0;
+}
+
+.steps .steplist .step .step-info{
+    text-transform: uppercase;
+    position: relative;
+    padding-top: 3.46rem;
+    margin-top: 1.33rem;
+    margin-bottom: 1.33rem;
+    display: block;
+}
+
+.steps .steplist .step .step-info .step-icon{
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 0.86rem;
+    left: 50%;
+    z-index: 1;
+    width: 1.33rem;
+    height: 1.33rem;
+    border-radius: 50%;
+}
+
+body.dark-layout .steps .steplist .step .step-info .step-icon{
+    background-color: #353d52 !important;
+}
+
+.steps .steplist .step .step-info .step-icon .icon{
+    position: relative;
+    left: -2px;
+    top: -1px;
+    font-size: 1.6rem;
+}
+
+.steps .steplist .step .step-info .step-text{
+    position: absolute;
+    top: -25px;
+    left: 15px;
+    right: 0px;
+    font-size: 0.75rem;
+}
+
+.steps .steplist .step .step-info .step-description{
+    position: absolute;
+    top: 35px;
+    left: 15px;
+    right: 0px;
+    font-size: 0.75rem;
+}
+
+.steps .steplist .step .step-info .step-text .bx{
+    font-size: 2rem;
+}
+
+.steps .steplist .step.current::before{
+    background-color: #5A8DEE;
+}
+
+.steps .steplist .step.done::before,
+.steps .steplist .step.done::after{
+    background-color: #39DA8A;
+}
+
+.steps .steplist .step.current .step-info .step-text,
+.steps .steplist .step.current .step-info .step-description{
+    color: #5A8DEE;
+}
+
+.steps .steplist .step.done .step-info .step-icon,
+.steps .steplist .step.done .step-info .step-text,
+.steps .steplist .step.done .step-info .step-description
+{
+    color: #39DA8A;
+}
+
+.step-link{
+    cursor: pointer;
+}
+
+.step-description{
+    text-transform: capitalize;
+}
+
+@media (min-width: 992px){
+    .steps .steplist .step .step-info .step-text{
+        font-size: 1rem;
+        top: -30px;
+    }
+
+    .steps .steplist .step .step-info .step-description{
+        font-size: 1rem;
+    }
+
+    .steps .steplist .step .step-info .step-text .bx{
+        font-size: 2.5rem;
+    }
+}

@@ -1,0 +1,771 @@
+
+html body{
+    height: 100%;
+    direction: ltr;
+}
+
+html .comptrac-portal-mobile .content{
+    min-height: calc(100% - 2.5rem);
+}
+
+body{
+    font-family: "Mulish";
+}
+
+.comptrac-portal .label-title{
+    color: #a4a6b3;
+}
+
+.comptrac-portal .label-login{
+    font-size: 24px;
+    text-align: center;
+}
+
+.comptrac-portal .label-login-description{
+    font-size: 14px;
+    text-align: center;
+    color: #9fa2b4;
+}
+
+.comptrac-portal .label-login + .label-login-description{
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+.comptrac-portal .label-username,
+.comptrac-portal .label-password{
+    font-size: 12px;
+    font-weight: bold;
+    color: #9fa2b4;
+}
+
+.comptrac-portal .container-input-login{
+    width: 100%;
+    margin: 6px 0 0;
+    padding: 11px 8px 11px 16px;
+    border-radius: 8px;
+    border: solid 1px #f0f1f7;
+    background-color: #fcfdfe;
+}
+
+.comptrac-portal .input-login{
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.43;
+    letter-spacing: 0.3px;
+    text-align: left;
+    color: black;
+    width: 100%;
+    border: none;
+    opacity: 0.4;
+}
+
+.comptrac-portal .input-focus-border-0:focus-visible{
+    border: none !important;
+    outline: none !important;
+}
+
+.comptrac-portal label{
+    margin-bottom: 0;
+}
+
+.comptrac-portal-mobile .btn{
+    width: 100%;
+    padding: 0.1rem 0.25rem;
+}
+
+.comptrac-portal-mobile .btn + .btn{
+    margin-left: 10px;
+}
+
+.comptrac-portal-mobile .btn.btn-main{
+    width: fit-content;
+    padding: 3px 15px;
+
+}
+
+.comptrac-portal-mobile .text-center > *{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.comptrac-portal .btn-primary,
+.comptrac-portal-mobile .btn-primary{
+    background-color: #008458 !important;
+    border-color: #008458 !important;
+    border: 1px solid;
+    color: white;
+    font-size: 10px;
+}
+
+.comptrac-portal .btn-primary.invert,
+.comptrac-portal-mobile .btn-primary.invert{
+    background-color:white !important;
+    color: #008458 !important;
+}
+
+.comptrac-portal-mobile .btn-primary.btn-sm{
+    padding: 0.25rem 0.5rem;
+}
+
+.comptrac-portal-mobile .btn .bx + .btn-text{
+    margin-left: 3px;
+}
+
+.comptrac-portal-mobile .btn .btn-text + .bx{
+    font-size: 1.25rem;
+    margin-left: 10px;
+}
+
+.comptrac-portal-mobile .btn i{
+    top: 0;
+}
+
+.comptrac-portal .container-switch-user{
+    text-align: center;
+}
+
+.comptrac-portal .container-switch-user .switch-user-label{
+    font-size: 14px;
+    letter-spacing: 0.3px;
+    color: #9fa2b4;
+}
+
+.comptrac-portal .container-switch-user .switch-user-link{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.43;
+    letter-spacing: 0.2px;
+    color: #008458;
+    cursor: pointer;
+}
+
+.comptrac-portal-mobile .main-menu .main-menu-content{
+    height: calc(100vh - 4.6rem) !important;
+}
+
+.comptrac-portal-mobile .bland-text{
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+}
+
+.comptrac-portal-mobile .text-description{
+    color: #9fa2b4 !important;
+}
+
+.comptrac-portal-mobile .navigation-main .nav-item{
+    color: #9fa2b4;
+    background-color: white;
+    font-size: 16px;
+    padding: 0.25rem;
+}
+
+.comptrac-portal-mobile .navigation-main .nav-item i.bx:not(.bx-main){
+    font-size: 16px;
+}
+
+.comptrac-portal-mobile [data-toggle="collapse"] .bx{
+    font-size: 20px;
+}
+
+
+.comptrac-portal-mobile .collapsed .bx.bx-chevron-down::before{
+    content: "\e9b9";
+}
+
+.comptrac-portal-mobile .navigation-main .nav-item.active{
+    color: white;
+    background-color: #008457;
+    border-radius: 16px;
+}
+
+
+.comptrac-portal-mobile .navigation-main .nav-item.sub{
+    padding-left: 1.75rem;
+}
+
+.comptrac-portal-mobile .navigation-main.navigation > li.nav-item.sub a{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.comptrac-portal-mobile .main-menu.menu-light .navigation > li.nav-item.open > a{
+    padding-left: 1px;
+}
+
+.comptrac-portal-mobile .main-menu.menu-light .navigation > li.active:not(.sidebar-group-active) > a{
+    color: white;
+    background-color: inherit;
+    border-radius: inherit;
+}
+
+.comptrac-portal-mobile .main-menu.menu-light .navigation > li.nav-item.active > a i{
+    color: white !important;
+}
+
+.comptrac-portal-mobile .main-menu.menu-light .navigation > li.nav-item.with-sub > a:after{
+    content: "\e9b9";
+    font-family: "boxicons";
+    font-size: 1.2rem;
+    color: #8494a7;
+    display: inline-block;
+    position: absolute;
+    right: 7px !important;
+    transform: rotate(180deg);
+    transition: -webkit-transform 0.4s ease-in-out;
+}
+
+.comptrac-portal-mobile .main-menu.menu-light .navigation > li.nav-item.with-sub.active > a:after{
+    color: white;
+}
+
+
+.comptrac-portal-mobile .div-profile{
+    margin: 0 1rem 1rem;
+    display: table;
+}
+
+.comptrac-portal-mobile .div-profile .profile-circle {
+    width: 44px;
+    height: 44px;
+    flex-grow: 0;
+    margin: 0 17px 0 0;
+    padding: 2px;
+    border: solid 1.5px #dfe0eb;
+    display: inline-block;
+    border-radius: 50%;
+    font-size: 0;
+}
+
+.comptrac-portal-mobile .div-profile .profile-circle + .profile-name{
+    line-height: 1.43;
+    letter-spacing: 0.2px;
+    text-align: right;
+    color: #252733;
+    font-size: 14px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.comptrac-portal-mobile .item-info div + div{
+    margin-top: 2.5px;
+}
+
+.comptrac-portal-mobile .header-navbar{
+    min-height: auto;
+}
+
+.comptrac-portal-mobile #navbar-mobile.navbar-collapse .navbar-nav .menu-toggle{
+    top: 0;
+}
+
+.comptrac-portal-mobile .header-navbar .navbar-container ul.nav li i.ficon{
+    font-size: 1.75rem;
+}
+
+.comptrac-portal-mobile .page-title{
+    font-size: 24px;
+    font-weight: bold;
+    color: #1e1e1e;
+}
+
+.comptrac-portal-mobile .input-datetimepicker.input-short{
+    max-width: 90px;
+    display: inline-block; 
+}
+
+.comptrac-portal-mobile .form-row label{
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.3;
+    color: black;
+    margin: 0;
+}
+
+.comptrac-portal-mobile .text-primary{
+    color: #008457 !important;
+}
+
+.comptrac-portal-mobile .form-group{
+    margin-bottom: 0.25rem;
+}
+
+.comptrac-portal-mobile .flex-between .form-group + .form-group{
+    margin-left: 5px;
+}
+
+.comptrac-portal-mobile .form-input.invalid {
+    border: 1px solid #FF5B5C !important;
+}
+
+.comptrac-portal-mobile .btn-primary{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.comptrac-portal-mobile .btn-primary .button-text + .button-icon{
+    margin-left: 1rem;
+}
+
+.comptrac-portal-mobile input,
+.comptrac-portal-mobile input:disabled,
+.comptrac-portal-mobile select,
+.comptrac-portal-mobile select:disabled,
+.comptrac-portal-mobile textarea,
+.comptrac-portal-mobile textarea:disabled{
+    border: solid 1px #9fa2b4;
+}
+
+.comptrac-portal-mobile .text-emphasis *{
+    font-size: 16px !important;
+    color: black;
+}
+
+.comptrac-portal footer.footer,
+.comptrac-portal-mobile footer.footer{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.comptrac-portal-mobile .main-menu .navbar-header .navbar-brand,
+.comptrac-portal-mobile .main-menu .navbar-header .modern-nav-toggle{
+    margin-top: 0;
+}
+
+.comptrac-portal-mobile .header-navbar .navbar-container ul.nav li.dropdown-user .dropdown-menu-right{
+    top: 100%;
+    right: 0;
+}
+
+.comptrac-portal-mobile .card{
+    margin-bottom: 0;
+}
+
+.comptrac-portal-mobile .card-header{
+    padding: 0.5rem;
+    border-bottom: 0;
+}
+
+.comptrac-portal-mobile .card-body{
+    padding: 0.5rem;
+}
+
+.comptrac-portal-mobile .card-title{
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.4px;
+    text-align: left;
+    color: #252733;
+}
+
+.comptrac-portal-mobile .card-title-secondary{
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: 0.1px;
+    text-align: left;
+    color: #9fa2b4;
+}
+
+.comptrac-portal-mobile .card-title + .card-title-secondary{
+    margin-top: 0.25rem;
+}
+
+.comptrac-portal-mobile .bx{
+    margin-top: 0 !important;
+    line-height: 1;
+    height: auto;
+    font-size: inherit;
+}
+
+.comptrac-portal-mobile .boxicon-wrapper .bx{
+    font-size: 1.25rem;
+    vertical-align: middle;
+}
+
+.comptrac-portal-mobile .bx + .boxicon-text{
+    line-height: 1.75;
+}
+
+.comptrac-portal-mobile .list-item{
+    border-bottom: solid 1px rgba(159, 162, 180, 0.2);
+    color: #000000;
+    font-weight: 800;
+    font-size: 12px;
+}
+
+.comptrac-portal-mobile .list-item:first-child{
+    border-top: solid 1px rgba(159, 162, 180, 0.2);
+}
+
+.comptrac-portal-mobile .card-body .list-item{
+    margin-left: -0.5rem;
+    margin-right: -0.5rem;
+    padding: 0.75rem 0.5rem;
+}
+
+.comptrac-portal-mobile .list-item .list-item-link{
+    color: inherit;
+}
+
+.comptrac-portal-mobile .stage-indicator{
+    border-radius: 6px;
+    background-color: #c3c7cd;
+    width: auto;
+    min-width: 20px;
+    padding: 5px;
+    display: inline-block;
+    color: black;
+    font-weight: 800;
+    max-width: 75%;
+}
+
+.comptrac-portal-mobile .list-item .stage-indicator{
+    margin-left: 1.5rem;
+}
+
+.comptrac-portal-mobile .form-label{
+    font-size: 12px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+    text-transform: none;
+}
+
+.comptrac-portal-mobile .form-input{
+    font-size: 12px;
+    border-radius: 4px;
+    padding: 0.25rem 0.5rem;
+}
+
+.comptrac-portal-mobile .form-input[readonly],
+.comptrac-portal-mobile .form-input[disabled]{
+    background-color: rgba(159, 162, 180, 0.2);
+}
+
+.comptrac-portal-mobile .form-text {
+    font-size: 12px;
+    font-stretch: normal;
+    color: black;
+    line-height: 1.2;
+    letter-spacing: normal;
+    margin-bottom: 0%;
+    text-align: left;
+    font-weight: 800;
+}
+
+.comptrac-portal-mobile .flex-between .form-label + .form-input,
+.comptrac-portal-mobile .form-label + .form-text{
+    margin-left: 3px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+}
+
+.comptrac-portal-mobile form .form-label,
+.comptrac-portal-mobile form .form-text{
+    line-height: 1;
+}
+
+.comptrac-portal-mobile .form-summary .form-label,
+.comptrac-portal-mobile .form-summary .form-text,
+.comptrac-portal-mobile .summary-block .form-label,
+.comptrac-portal-mobile .summary-block .form-text{
+    font-size: 12px;
+}
+
+.comptrac-portal-mobile .form-summary .form-label,
+.comptrac-portal-mobile .form-summary .form-text{
+    vertical-align: middle;
+}
+
+.comptrac-portal-mobile .form-summary .form-text{
+    font-weight: 600;
+
+}
+
+.comptrac-portal-mobile .summary-block{
+    background-color: #fafafa;
+    padding: 10px;
+}
+
+
+.comptrac-portal-mobile .summary-block div + div{
+    margin-top: 8px;
+}
+
+.comptrac-portal-mobile .summary-block .form-label,
+.comptrac-portal-mobile .summary-block .form-text{
+    line-height: 1;
+}
+
+.comptrac-portal-mobile .form-label .label-secondary{
+    font-size: 10px;
+    color: #9fa2b4;
+    font-style: italic;
+}
+
+.comptrac-portal-mobile .big *{
+    font-size: 16px !important;
+}
+
+.comptrac-portal-mobile .font-12 *{
+    font-size: 12px !important;
+}
+
+html .navbar-sticky .app-content .content-wrapper{
+    padding-top: 0.5rem;
+}
+
+.header-nav{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    transition: 100ms ease all;
+}
+
+.header-nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+}
+
+.header-nav ul.nav{
+    margin: 0;
+    list-style: none;
+    padding-left: 0;
+    flex-direction: row;
+    display: flex;
+}
+
+.header-nav ul.nav li.nav-item{
+    margin: 0;
+}
+
+.header-nav ul.nav li.nav-item + li.nav-item{
+    margin-left: 1rem;
+}
+
+.nav-link{
+    font-size: 1rem;
+    color: #727E8C;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.nav-link .bx{
+    font-size: 1.5rem;
+}
+
+.sheet{
+	width: 135px;
+	min-height: 78px;
+	padding: 16px 0;
+	text-align: center;
+	border-radius: 8px;
+	border: solid 1px #dfe0eb;
+	background-color: #ffffff;
+	display: inline-block;
+	margin-bottom: 1rem;
+}
+
+.sheet-label{
+	flex-grow: 0;
+	margin-bottom: 5px;
+	font-family: "Mulish";
+	font-size: 16px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: 0.4px;
+	color: #8f91a2;
+	display: block;
+}
+
+.sheet-value{
+	flex-grow: 0;
+	font-family: Mulish;
+	font-size: 24px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+.sheet-container{
+	flex-wrap: wrap;
+	justify-content: space-between;
+	display: flex;
+}
+
+.page-title{
+    font-family: "Mulish";
+    font-size: 24px;
+    font-weight: 750;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    text-align: left;
+    color: #1e1e1e;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.text-inprogress{
+    color: #e8b355 !important;
+}
+
+.text-pending{
+    color: #73d2de !important;
+}
+
+.text-complete{
+    color: #008457 !important;
+}
+
+.text-rejected{
+    color: #e4392f !important;
+}
+
+.text-link{
+    color: #5A8DEE !important;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.text-black{
+    color: #000000 !important;
+}
+
+.label{
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
+    text-align: left;
+}
+
+.flex-between{
+    display: flex !important;
+    justify-content: space-between !important;
+    width: 100%;
+}
+
+.m-05,
+.my-05,
+.mt-05{
+    margin-top: 0.5rem !important;
+}
+
+.m-05,
+.my-05,
+.mb-05{
+    margin-bottom: 0.5rem !important;
+}
+
+.m-05,
+.mx-05,
+.ml-05{
+    margin-left: 0.5rem !important;
+}
+
+.m-05,
+.mx-05,
+.mr-05{
+    margin-right: 0.5rem !important;
+}
+
+.fw-100{
+    font-weight: 100 !important;
+}
+
+.fw-200{
+    font-weight: 200 !important;
+}
+
+.fw-300{
+    font-weight: 300 !important;
+}
+
+.fw-400{
+    font-weight: 400 !important;
+}
+
+.fw-500{
+    font-weight: 500 !important;
+}
+
+.fw-600{
+    font-weight: 600 !important;
+}
+
+.fw-700{
+    font-weight: 700 !important;
+}
+
+.fw-800{
+    font-weight: 800 !important;
+}
+
+.fw-900{
+    font-weight: 900 !important;
+}
+
+.fw-1000{
+    font-weight: 1000 !important;
+}
+
+.w-10{
+    width: 10% !important;
+}
+
+.w-20{
+    width: 20% !important;
+}
+
+.w-30{
+    width: 30% !important;
+}
+
+.w-40{
+    width: 40% !important;
+}
+
+.w-50{
+    width: 50% !important;
+}
+
+.w-60{
+    width: 60% !important;
+}
+
+.w-70{
+    width: 70% !important;
+}
+
+.w-80{
+    width: 80% !important;
+}
+
+.w-90{
+    width: 90% !important;
+}
